@@ -1,0 +1,181 @@
+{
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": false,
+  "editor.insertSpaces": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.tabSize": 4,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "markup.bold",
+        "settings": {
+          "foreground": "#f8f528",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "markup.italic",
+        "settings": {
+          "foreground": "#ff6daa",
+          "fontStyle": "italic bold"
+        }
+      },
+      {
+        "scope": "markup.quote",
+        "settings": {
+          "foreground": "#c5cc83",
+          "fontStyle": "italic bold"
+        }
+      }
+    ]
+  },
+  "emmet.includeLanguages": {
+    "html-eex": "html"
+  },
+"explorer.confirmDragAndDrop": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "gitlens.defaultDateStyle": "absolute",
+  "javascript.validate.enable": false,
+  "markdownlint.config": {
+    "MD012": false, // MD012 no-multiple-blanks - Multiple consecutive blank lines
+    "MD024": {
+      "siblings_only": true // MD024 no-duplicate-heading/no-duplicate-header - Multiple headings with the same content
+    },
+    "MD025": false, // MD025 single-h1 - Multiple top level headers in the same document
+    "MD033": false // MD033 no-inline-html - Inline HTML
+  },
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#b52e31"
+    },
+    {
+      "name": "Auth0 Orange",
+      "value": "#eb5424"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "C# Purple",
+      "value": "#68217A"
+    },
+    {
+      "name": "Gatsby Purple",
+      "value": "#639"
+    },
+    {
+      "name": "Go Cyan",
+      "value": "#5dc9e2"
+    },
+    {
+      "name": "Java Blue-Gray",
+      "value": "#557c9b"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#00b3e6"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    },
+
+    {
+      "name": "Duramente vino",
+      "value": "#73153d"
+    },
+    {
+      "name": "Endurecidamente azul",
+      "value": "#3b5487"
+    },
+    {
+      "name": "Levemente púrpura",
+      "value": "#76618f"
+    },
+    {
+      "name": "Mullidamente rosa",
+      "value": "#98616e"
+    },
+    {
+      "name": "Quinamente menta",
+      "value": "#53c5d0"
+    },
+    {
+      "name": "Suavemente agua",
+      "value": "#b8e8e8"
+    },
+    {
+      "name": "Suavemente durazno",
+      "value": "#fcdca8"
+    }
+  ],
+  "window.titleBarStyle": "custom",
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ff00ff",
+    "editorWhitespace.foreground": "#ff00ffa0"
+},
+  "workbench.editor.decorations.badges": true,
+  "workbench.editor.decorations.colors": false,
+  "[elixir]": {
+    "editor.formatOnSave": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "window.zoomLevel": 2,
+  "editor.fontSize": 18,
+  "terminal.external.windowsExec": "C:\\Windows\\System32\\cmd.exe",
+  "terminal.integrated.automationShell.linux": "/usr/bin/bash",
+  "terminal.integrated.shell.linux": "/bin/bash",
+"code-runner.runInTerminal": true,
+"cSpell.ignoreWords": [
+    "c",
+    "ignore",
+    "includ",
+    "includede",
+    "spell",
+    "words"
+],
+"files.autoSave": "afterDelay",
+"workbench.colorTheme": "Visual Studio Dark - C++",
+"terminal.integrated.fontWeight": null
+}
